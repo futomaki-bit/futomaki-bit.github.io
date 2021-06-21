@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>futomakiyoin</title>
-    <meta charset="UTF-8" />
-    <style>
+
+<head>
+  <title>futomakiyoin</title>
+  <meta charset="UTF-8" />
+  <style>
+    body {
+      background-color: #242424;
+    }
+
+    /* Dark Mode */
+    @media (prefers-color-scheme: dark) {
       body {
         background-color: #242424;
+        color: white;
       }
-      /* Dark Mode */
-      @media (prefers-color-scheme: dark) {
-        body {
-          background-color: #242424;
-          color: white;
-        }
+    }
+
+    /* Light Mode */
+    @media (prefers-color-scheme: light) {
+      body {
+        background-color: white;
+        color: black;
       }
-      /* Light Mode */
-      @media (prefers-color-scheme: light) {
-        body {
-          background-color: white;
-          color: black;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <!-- Redirect to url -->
-    <meta
-      http-equiv="Refresh"
-      content="0; url='https://futomakiyoin.github.io/site/'"
-    />
-  </body>
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Redirect to url -->
+  <meta http-equiv="Refresh" content="0; url='https://futomakiyoin.github.io/site-react/'" />
+</body>
+
 </html>
